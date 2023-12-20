@@ -1,0 +1,8 @@
+name: github
+on: push 
+jobs:
+    Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    name: print event
+    run: echo " the event"
