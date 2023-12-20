@@ -5,7 +5,15 @@
 
 int main()
 {
-    std::cout << "Hello Worldsssss diiiv!\n";
+
+    std::cout << "Hello Worldsssss!\n";
+    std::cout << "first edit!\n";
+    std::cout << sum(4, 2);
+}
+int sum(int a, int b) {
+
+    return a + b;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
